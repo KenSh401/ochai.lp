@@ -116,7 +116,6 @@ main {
     background-color: #e7ecef;
     margin: 0 auto;
     width: 80%;
-    height: 500px;
 }
 
 
@@ -125,4 +124,49 @@ footer {
     background-color: #002646;
     height: 50px;
     width: 100%;
+}
+
+.contents-wrapper{
+    padding: 20px;
+}
+
+.contents-wrapper p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contents-title {
+    color:#122536;
+    font-family: cursive;
+    padding-left: 20px;
+    border-bottom: medium solid #264f73;
+}
+
+.cheermovie {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lyrics {
+    padding-left: 10px;
+}
+
+.lyrics p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.orions h4{
+    border-bottom: medium solid #eb0410;
+}
+
+.dragonz h4 {
+    border-bottom: medium solid #0c08f7;
+}
+
+.giants h4 {
+    border-bottom: medium solid rgb(255, 115, 0);
+}
+
+.fighters h4 {
+    border-bottom: medium solid rgb(255, 145, 0);
 }
