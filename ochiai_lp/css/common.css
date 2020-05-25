@@ -194,6 +194,10 @@ main {
     }
   }
 
+  .timeline-title:hover {
+    cursor: pointer;
+  }
+
 .cheermovie {
     margin: 40px;
     display: grid;
