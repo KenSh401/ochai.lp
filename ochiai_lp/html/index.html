@@ -193,15 +193,16 @@
         </div>
     </main>
     <footer></footer>
-    <script>
-        // ページ読み込み後に年表コンテンツの説明テキストを非表示にする処理を行う
+    <!-- <script>
+        // ページ読み込み時にに年表コンテンツの説明テキストを非表示にする処理を行う
         var targetElement = this.document.getElementsByClassName("timeline-sentense");
 
         // 取得した説明テキスト要素は複数あるので、一つずつ要素を非表示させるループ
         // ここで非表示にした説明テキストを、年表のタイトル押下時に表示させる
         for (var i = 0; i < targetElement.length; i++) {
             targetElement[i].style.display = "none";
+            targetElement[i].style.opacity = "0";
         }        
-    </script>
+    </script> -->
 </body>
 </html>
