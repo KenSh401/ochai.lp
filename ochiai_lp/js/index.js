@@ -18,3 +18,23 @@ function displayChange (indexNo) {
     //     target.className = "timeline-sentense";
     // }
 }
+
+//こちらではquoteエリアクリック時にモーダルウインドウ を表示させる処理を行う
+function showModal(indexNo) {
+    // ターゲットのモーダルウインドウ の要素を取得する
+    var targetElements = this.document.getElementsByClassName("quote-modal");
+    var target = targetElements[indexNo];
+
+    // モーダルウインドウ を表示させる
+    target.classList.toggle("is-show");
+}
+
+// こちらではモーダルウインドウ の閉じるボタンの押下時にモーダルウインドウ を閉じる処理を行う
+function closeModal() {
+    // ターゲットのモーダルウインドウ の要素を取得する
+    var targetElements = this.document.getElementsByClassName("quote-modal is-show");
+    var target = targetElements[0];
+
+    // モーダルウインドウ を表示させる
+    target.classList.toggle("is-show");
+}
